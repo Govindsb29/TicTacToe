@@ -14,7 +14,7 @@ This is a simple command line game of Tic Tac Toe game, written in Python. It's 
 - No extra libraries required
 
 ## How to play
-1. Enter player names.x
+1. Enter player names.
 2. Enter row and column index where you want to place the symbol.
 3. Now both player takes turn and repeat step 2.
 4. Either one of the player wins after having three of their symbols in a row/column/diagonal or the board is full and it's a draw.
