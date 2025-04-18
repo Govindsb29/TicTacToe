@@ -25,7 +25,7 @@ class Board:
                 return True
             
         for col in range(3):
-            if self.gird[0][col]==symbol and self.grid[1][col]==symbol and self.grid[2][col]==symbol:
+            if self.grid[0][col]==symbol and self.grid[1][col]==symbol and self.grid[2][col]==symbol:
                 return True
             
         if self.grid[0][0]==symbol and self.grid[1][1]==symbol and self.grid[2][2]==symbol:
@@ -37,10 +37,8 @@ class Board:
         return False
     
     def is_full(self):
-         for row in self.grid:
-             for cell in row:
+        for row in self.grid:
+            for cell in row:
                 if cell == " ":
                     return False
-                else:
-                     return True
-
+        return True
